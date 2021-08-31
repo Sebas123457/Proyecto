@@ -1,0 +1,38 @@
+* {
+    margin:0;
+}
+
+.titulo1 {
+position: absolute;
+width: 388px;
+height: 34px;
+left: 314px;
+top: 40px;
+font-family: Roboto;
+font-style: italic;
+font-weight: bold;
+font-size: 30px;
+line-height: 35px;
+color: black;
+}
+
+body{
+    background-image: url(fondo.jpg);
+    background-size:auto;
+}
+.parrafo1
+{
+position: absolute;
+width: 406px;
+height: 37px;
+left: 314px;
+top: 74px;
+
+font-family: Roboto;
+font-style: italic;
+font-weight: bold;
+font-size: 30px;
+line-height: 35px;
+
+color: #000000;
+}
