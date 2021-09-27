@@ -1,0 +1,105 @@
+* {
+    margin:0;
+}
+
+body{
+    background-image: url(FondoPP.jpg);
+    background-size:auto;
+    background-repeat: no-repeat;
+}
+
+.titulo1{
+    position: absolute;
+width: 352px;
+height: 84px;
+left: 545px;
+top: 118px;
+
+font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 72px;
+line-height: 84px;
+
+color: #FFFFFF;
+}
+
+.titulo2{
+    position: absolute;
+width: 590px;
+height: 32px;
+left: 425px;
+top: 280px;
+
+font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 30px;
+line-height: 35px;
+
+color: #FFFFFF;
+}
+
+.paragraph1{
+    position: absolute;
+    width: 681px;
+    height: 56px;
+    left: 380px;
+    top: 365px;
+    
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 28px;
+    
+    color: #000000;
+}
+
+.titulo3{
+    position: absolute;
+width: 185px;
+height: 56px;
+left: 150px;
+top: 481px;
+
+font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 48px;
+line-height: 56px;
+
+color: #510404;
+}
+
+.paragraph2{
+    position: absolute;
+    width: 385px;
+    height: 29px;
+    left: 150px;
+    top: 568px;
+    
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 25px;
+    line-height: 29px;
+    
+    color: #000000;
+}
+
+.paragraph3{
+    position: absolute;
+width: 361px;
+height: 29px;
+left: 155px;
+top: 628px;
+
+font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 25px;
+line-height: 29px;
+
+color: #000000;
+}
