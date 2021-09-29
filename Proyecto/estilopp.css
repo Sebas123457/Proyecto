@@ -3,12 +3,12 @@
 }
 
 body{
-    background-image: url(FondoPP.jpg);
+    /*background-image: url(FondoPP.jpg);*/
     background-size:auto;
     background-repeat: no-repeat;
 }
 
-.titulo1{
+/*.titulo1{
     position: absolute;
 width: 352px;
 height: 84px;
@@ -22,22 +22,34 @@ font-size: 72px;
 line-height: 84px;
 
 color: #FFFFFF;
-}
+}*/
+
+.titulo {
+    font-family: "Times new roman", cursive;
+    font-size: 50px;
+    top:1000px;
+    text-align: center;
+    border-radius: 15px;
+    color: rgb(255, 255, 255);
+    background-color: rgb(78, 0, 0);
+    margin-top: 50px;
+  }
 
 .titulo2{
-    position: absolute;
+position: absolute;
 width: 590px;
-height: 32px;
-left: 425px;
-top: 280px;
+height: 60px;
+left: 380px;
+top: 100px;
 
-font-family: Roboto;
-font-style: normal;
+text-align: center;
 font-weight: normal;
 font-size: 30px;
-line-height: 35px;
+line-height: 55px;
 
 color: #FFFFFF;
+background-color: #000000;
+margin: 30px;
 }
 
 .paragraph1{
@@ -45,44 +57,40 @@ color: #FFFFFF;
     width: 681px;
     height: 56px;
     left: 380px;
-    top: 365px;
+    top: 250px;
     
     font-family: Roboto;
     font-style: normal;
     font-weight: normal;
     font-size: 24px;
     line-height: 28px;
+    text-align: center;
     
     color: #000000;
 }
 
 .titulo3{
-    position: absolute;
-width: 185px;
-height: 56px;
-left: 150px;
-top: 481px;
-
-font-family: Roboto;
-font-style: normal;
-font-weight: normal;
-font-size: 48px;
-line-height: 56px;
-
-color: #510404;
+    font-family: "Times new roman", cursive;
+    font-size: 50px;
+    margin-top: 800;
+    text-align: center;
+    border-radius: 15px;
+    color: rgb(255, 255, 255);
+    background-color: rgb(78, 0, 0);
+    margin-top: 50px;
 }
 
 .paragraph2{
     position: absolute;
     width: 385px;
     height: 29px;
-    left: 150px;
-    top: 568px;
+    left: 140px;
+    top: 530px;
     
     font-family: Roboto;
     font-style: normal;
     font-weight: normal;
-    font-size: 25px;
+    font-size: 20px;
     line-height: 29px;
     
     color: #000000;
@@ -92,14 +100,39 @@ color: #510404;
     position: absolute;
 width: 361px;
 height: 29px;
-left: 155px;
-top: 628px;
+left: 140px;
+top: 570px;
 
 font-family: Roboto;
 font-style: normal;
 font-weight: normal;
-font-size: 25px;
+font-size: 20px;
 line-height: 29px;
 
 color: #000000;
+}
+
+.paragraph4{
+position: absolute;
+width: 361px;
+height: 29px;
+left: 140px;
+top: 610px;
+
+font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 20px;
+line-height: 29px;
+
+color: #000000;
+}
+
+.perfil{
+    background-image: url(/FotoDePerfil.jpg);
+    background-repeat: no-repeat;
+    border-radius: 50px;
+    width: 265px;
+    height:300px;
+    margin-left: 50px;
 }

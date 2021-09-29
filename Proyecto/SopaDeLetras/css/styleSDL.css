@@ -1,0 +1,72 @@
+#sopa {
+  margin: auto;
+}
+
+#contenedor {
+  margin: auto;
+  width: 750px;
+  height: 750px; /*Wid y hei para el ancho y alto de la sopa de letras */
+  padding: 0.01px;
+  border-radius: 10px;
+  overflow: hidden; /* regular la visibilidad de los contenidos que sobresalen de una caja html */
+}
+
+.caja {
+  margin: 3px;
+  width: 28px;
+  height: 28px;
+  line-height: 28px;
+  text-align: center;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+  border-radius: 5px;
+  float: left;
+}
+
+.caja:hover {
+  color: blue;
+}
+
+.block {
+  text-align: center;
+  background-color: rgb(77, 2, 2);
+  border-radius: 1000px;
+}
+
+.global {
+  columns: 2;
+}
+
+.lista {
+  text-align: left;
+  display: inline-block;
+  color:white;
+}
+
+.letra {
+  text-decoration: none;
+  color: black;
+}
+
+a:hover {
+  color: blue;
+}
+
+.titulo {
+  font-family: "Times new roman", cursive;
+  font-size: 30px;
+  text-align: center;
+  color: rgb(255, 255, 255);
+  background-color: rgb(78, 0, 0);
+}
+
+.titulo1 {
+  font-family: "Times new roman", cursive;
+  font-size: 25px;
+  text-align: center;
+}
+
+.word {
+  background-color: #6d03081e;
+}
+
+

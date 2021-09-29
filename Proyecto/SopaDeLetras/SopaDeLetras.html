@@ -1,0 +1,387 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Akaya+Telivigala&family=Noto+Serif:ital,wght@1,700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="css/styleSDL.css">
+    <title>Sopa de letras</title>
+</head>
+<body>
+    <p class="titulo"><b>SOPA DE LETRAS</b></p>
+    <p class="titulo1"><b>El objetivo del juego es encontrar todas las palabras que se encuentran en las siguientes listas. ¡GOOD LUCK!</b></p>
+        <div class="global">
+            <div class="block">
+                <ul class="lista">
+                    <li>GITHUB</li>
+                    <li>INDEX</li>
+                    <li>CSS</li>
+                    <li>HTML</li>
+                    <li>COLOR</li>
+                    <li>BACKGROUND</li>
+                </ul>
+            </div>
+            <br>
+            <div class="block">
+                <ul class="lista">
+                    <li>FRONTEND</li>
+                    <li>JAVASCRIPT</li>
+                    <li>ETIQUETA</li>
+                    <li>CLASS</li>
+                    <li>SIZE</li>
+                    <li>BODY</li>
+                </ul>
+            </div>
+            <div class="block">
+                <ul class="lista">
+                    <li>DISPLAY</li>
+                    <li>WIDTH</li>
+                    <li>MARGIN</li>
+                    <li>HEIGHT</li>
+                    <li>FLOAT</li>
+                    <li>RADIUS</li>
+                </ul>
+            </div>
+            <br>
+            <div class="block">
+                <ul class="lista">
+                    <li>CODIGO</li>
+                    <li>PADDING</li>
+                    <li>AUTO</li>
+                    <li>PX</li>
+                    <li>LEFT</li>
+                    <li>RIGHT</li>
+                </ul>
+            </div>
+        </div>
+        <br>
+    <div id="sopa">
+        <div id="contenedor">
+            <div class="caja"><strong>A</strong></div>
+            <div class="caja"><strong>B</strong></div>
+            <div class="caja"><strong>C</strong></div>
+            <div class="caja"><strong>D</strong></div>
+            <div class="caja"><strong>E</strong></div>
+            <div class="caja"><strong>F</strong></div>
+            <div class="caja word"><strong>R</strong></div>
+            <div class="caja word"><strong>A</strong></div>
+            <div class="caja word"><strong>D</strong></div>
+            <div class="caja word"><strong>I</strong></div>
+            <div class="caja word"><strong>U</strong></div>
+            <div class="caja word"><strong>S</strong></div>
+            <div class="caja"><strong>G</strong></div>
+            <div class="caja"><strong>H</strong></div>
+            <div class="caja"><strong>I</strong></div>
+            <div class="caja"><strong>J</strong></div>
+            <div class="caja"><strong>K</strong></div>
+            <div class="caja"><strong>L</strong></div>
+            <div class="caja"><strong>M</strong></div>
+            <div class="caja"><strong>N</strong></div>
+            <div class="caja word"><strong>P</strong></div>
+            <div class="caja"><strong>O</strong></div>
+
+            <div class="caja"><strong>P</strong></div>
+            <div class="caja"><strong>Q</strong></div>
+            <div class="caja word"><strong>B</strong></div>
+            <div class="caja word"><strong>U</strong></div>
+            <div class="caja word"><strong>H</strong></div>
+            <div class="caja word"><strong>T</strong></div>
+            <div class="caja word"><strong>I</strong></div>
+            <div class="caja word"><strong>G</strong></div>
+            <div class="caja"><strong>R</strong></div>
+            <div class="caja"><strong>S</strong></div>
+            <div class="caja"><strong>T</strong></div>
+            <div class="caja word"><strong>S</strong></div>
+            <div class="caja"><strong>U</strong></div>
+            <div class="caja"><strong>V</strong></div>
+            <div class="caja"><strong>X</strong></div>
+            <div class="caja word"><strong>B</strong></div>
+            <div class="caja word"><strong>O</strong></div>
+            <div class="caja word"><strong>D</strong></div>
+            <div class="caja word"><strong>Y</strong></div>
+            <div class="caja"><strong>Y</strong></div>
+            <div class="caja word"><strong>A</strong></div>
+            <div class="caja"><strong>Z</strong></div>
+
+            <div class="caja"><strong>A</strong></div>
+            <div class="caja word"><strong>J</strong></div>
+            <div class="caja"><strong>B</strong></div>
+            <div class="caja"><strong>C</strong></div>
+            <div class="caja"><strong>D</strong></div>
+            <div class="caja"><strong>E</strong></div>
+            <div class="caja word"><strong>N</strong></div>
+            <div class="caja"><strong>F</strong></div>
+            <div class="caja"><strong>G</strong></div>
+            <div class="caja"><strong>H</strong></div>
+            <div class="caja"><strong>I</strong></div>
+            <div class="caja word"><strong>A</strong></div>
+            <div class="caja"><strong>J</strong></div>
+            <div class="caja"><strong>K<strong></div>
+            <div class="caja"><strong>L</strong></div>
+            <div class="caja word"><strong>A</strong></div>
+            <div class="caja"><strong>M</strong></div>
+            <div class="caja word"><strong>I</strong></div>
+            <div class="caja"><strong>N</strong></div>
+            <div class="caja word"><strong>O</strong></div>
+            <div class="caja word"><strong>D</strong></div>
+            <div class="caja"><strong>O</strong></div>
+
+            <div class="caja"><strong>P</strong></div>
+            <div class="caja word"><strong>A</strong></div>
+            <div class="caja"><strong>Q</strong></div>
+            <div class="caja word"><strong>C</strong></div>
+            <div class="caja word"><strong>S</strong></div>
+            <div class="caja word"><strong>S</strong></div>
+            <div class="caja word"><strong>D</strong></div>
+            <div class="caja"><strong>R</strong></div>
+            <div class="caja"><strong>S</strong></div>
+            <div class="caja word"><strong>C</strong></div>
+            <div class="caja word"><strong>O</strong></div>
+            <div class="caja word"><strong>L</strong></div>
+            <div class="caja word"><strong>O</strong></div>
+            <div class="caja word"><strong>R</strong></div>
+            <div class="caja"><strong>T</strong></div>
+            <div class="caja word"><strong>C</strong></div>
+            <div class="caja"><strong>U</strong></div>
+            <div class="caja word"><strong>S</strong></div>
+            <div class="caja"><strong>V</strong></div>
+            <div class="caja word"><strong>G</strong></div>
+            <div class="caja word"><strong>D</strong></div>
+            <div class="caja"><strong>X</strong></div>
+
+            <div class="caja"><strong>Y</strong></div>
+            <div class="caja word"><strong>V</strong></div>
+            <div class="caja"><strong>Z</strong></div>
+            <div class="caja"><strong>A</strong></div>
+            <div class="caja word"><strong>I</strong></div>
+            <div class="caja"><strong>B</strong></div>
+            <div class="caja word"><strong>E</strong></div>
+            <div class="caja"><strong>C</strong></div>
+            <div class="caja"><strong>D</strong></div>
+            <div class="caja"><strong>E</strong></div>
+            <div class="caja"><strong>F</strong></div>
+            <div class="caja word"><strong>C</strong></div>
+            <div class="caja"><strong>G</strong></div>
+            <div class="caja"><strong>H</strong></div>
+            <div class="caja"><strong>I</strong></div>
+            <div class="caja word"><strong>K</strong></div>
+            <div class="caja"><strong>J</strong></div>
+            <div class="caja word"><strong>P</strong></div>
+            <div class="caja"><strong>K</strong></div>
+            <div class="caja word"><strong>I</strong></div>
+            <div class="caja word"><strong>I</strong></div>
+            <div class="caja"><strong>L</strong></div>
+
+            <div class="caja"><strong>M</strong></div>
+            <div class="caja word"><strong>A</strong></div>
+            <div class="caja"><strong>N</strong></div>
+            <div class="caja"><strong>O</strong></div>
+            <div class="caja word"><strong>Z</strong></div>
+            <div class="caja"><strong>P</strong></div>
+            <div class="caja word"><strong>X</strong></div>
+            <div class="caja"><strong>Q</strong></div>
+            <div class="caja word"><strong>L</strong></div>
+            <div class="caja"><strong>R</strong></div>
+            <div class="caja"><strong>S</strong></div>
+            <div class="caja"><strong>T</strong></div>
+            <div class="caja word"><strong>E</strong></div>
+            <div class="caja"><strong>U</strong></div>
+            <div class="caja"><strong>V</strong></div>
+            <div class="caja word"><strong>G</strong></div>
+            <div class="caja"><strong>X</strong></div>
+            <div class="caja word"><strong>L</strong></div>
+            <div class="caja"><strong>Y</strong></div>
+            <div class="caja word"><strong>D</strong></div>
+            <div class="caja word"><strong>N</strong></div>
+            <div class="caja"><strong>Z</strong></div>
+
+            <div class="caja"><strong>A</strong></div>
+            <div class="caja word"><strong>S</strong></div>
+            <div class="caja"><strong>B</strong></div>
+            <div class="caja"><strong>C</strong></div>
+            <div class="caja word"><strong>E</strong></div>
+            <div class="caja"><strong>D</strong></div>
+            <div class="caja"><strong>E</strong></div>
+            <div class="caja"><strong>F</strong></div>
+            <div class="caja word"><strong>M</strong></div>
+            <div class="caja word"><strong>D</strong></div>
+            <div class="caja word"><strong>N</strong></div>
+            <div class="caja word"><strong>E</strong></div>
+            <div class="caja word"><strong>T</strong></div>
+            <div class="caja word"><strong>N</strong></div>
+            <div class="caja word"><strong>O</strong></div>
+            <div class="caja word"><strong>R</strong></div>
+            <div class="caja word"><strong>F</strong></div>
+            <div class="caja word"><strong>A</strong></div>
+            <div class="caja"><strong>G</strong></div>
+            <div class="caja word"><strong>O</strong></div>
+            <div class="caja word"><strong>G</strong></div>
+            <div class="caja word"><strong>T</strong></div>
+
+            <div class="caja"><strong>H</strong></div>
+            <div class="caja word"><strong>C</strong></div>
+            <div class="caja"><strong>I</strong></div>
+            <div class="caja"><strong>J</strong></div>
+            <div class="caja"><strong>K</strong></div>
+            <div class="caja"><strong>L</strong></div>
+            <div class="caja"><strong>M</strong></div>
+            <div class="caja"><strong>N</strong></div>
+            <div class="caja word"><strong>T</strong></div>
+            <div class="caja"><strong>O</strong></div>
+            <div class="caja"><strong>P</strong></div>
+            <div class="caja"><strong>Q</strong></div>
+            <div class="caja word"><strong>I</strong></div>
+            <div class="caja"><strong>R</strong></div>
+            <div class="caja"><strong>S</strong></div>
+            <div class="caja word"><strong>O</strong></div>
+            <div class="caja"><strong>T</strong></div>
+            <div class="caja word"><strong>Y</strong></div>
+            <div class="caja"><strong>U</strong></div>
+            <div class="caja word"><strong>C</strong></div>
+            <div class="caja"><strong>V</strong></div>
+            <div class="caja word"><strong>H</strong></div>
+
+            <div class="caja"><strong>X</strong></div>
+            <div class="caja word"><strong>R</strong></div>
+            <div class="caja"><strong>Y</strong></div>
+            <div class="caja"><strong>Z</strong></div>
+            <div class="caja word"><strong>W</strong></div>
+            <div class="caja word"><strong>I</strong></div>
+            <div class="caja word"><strong>D</strong></div>
+            <div class="caja word"><strong>T</strong></div>
+            <div class="caja word"><strong>H</strong></div>
+            <div class="caja"><strong>A</strong></div>
+            <div class="caja"><strong>B</strong></div>
+            <div class="caja"><strong>C</strong></div>
+            <div class="caja word"><strong>Q</strong></div>
+            <div class="caja"><strong>D</strong></div>
+            <div class="caja"><strong>E</strong></div>
+            <div class="caja word"><strong>U</strong></div>
+            <div class="caja"><strong>F</strong></div>
+            <div class="caja"><strong>G</strong></div>
+            <div class="caja"><strong>H</strong></div>
+            <div class="caja"><strong>I</strong></div>
+            <div class="caja"><strong>J</strong></div>
+            <div class="caja word"><strong>G</strong></div>
+
+            <div class="caja"><strong>K</strong></div>
+            <div class="caja word"><strong>I</strong></div>
+            <div class="caja"><strong>L</strong></div>
+            <div class="caja"><strong>M</strong></div>
+            <div class="caja"><strong>N</strong></div>
+            <div class="caja"><strong>O</strong></div>
+            <div class="caja"><strong>P</strong></div>
+            <div class="caja"><strong>Q</strong></div>
+            <div class="caja"><strong>R</strong></div>
+            <div class="caja"><strong>S</strong></div>
+            <div class="caja"><strong>T</strong></div>
+            <div class="caja"><strong>U</strong></div>
+            <div class="caja word"><strong>U</strong></div>
+            <div class="caja"><strong>V</strong></div>
+            <div class="caja"><strong>X</strong></div>
+            <div class="caja word"><strong>N</strong></div>
+            <div class="caja"><strong>Y</strong></div>
+            <div class="caja"><strong>Z</strong></div>
+            <div class="caja"><strong>A</strong></div>
+            <div class="caja word"><strong>X</strong></div>
+            <div class="caja"><strong>B</strong></div>
+            <div class="caja word"><strong>I</strong></div>
+
+            <div class="caja"><strong>C</strong></div>
+            <div class="caja word"><strong>P</strong></div>
+            <div class="caja"><strong>D</strong></div>
+            <div class="caja"><strong>E</strong></div>
+            <div class="caja"><strong>F</strong></div>
+            <div class="caja"><strong>G</strong></div>
+            <div class="caja"><strong>H</strong></div>
+            <div class="caja"><strong>I</strong></div>
+            <div class="caja word"><strong>T</strong></div>
+            <div class="caja word"><strong>H</strong></div>
+            <div class="caja word"><strong>G</strong></div>
+            <div class="caja word"><strong>I</strong></div>
+            <div class="caja word"><strong>E</strong></div>
+            <div class="caja word"><strong>H</strong></div>
+            <div class="caja"><strong>J</strong></div>
+            <div class="caja word"><strong>D</strong></div>
+            <div class="caja"><strong>K</strong></div>
+            <div class="caja"><strong>L</strong></div>
+            <div class="caja"><strong>M</strong></div>
+            <div class="caja word"><strong>P</strong></div>
+            <div class="caja"><strong>N</strong></div>
+            <div class="caja word"><strong>R</strong></div>
+
+            <div class="caja"><strong>O</strong></div>
+            <div class="caja word"><strong>T</strong></div>
+            <div class="caja word"><strong>A</strong></div>
+            <div class="caja word"><strong>O</strong></div>
+            <div class="caja word"><strong>L</strong></div>
+            <div class="caja word"><strong>F</strong></div>
+            <div class="caja"><strong>P</strong></div>
+            <div class="caja"><strong>G</strong></div>
+            <div class="caja"><strong>B</strong></div>
+            <div class="caja"><strong>W</strong></div>
+            <div class="caja"><strong>V</strong></div>
+            <div class="caja"><strong>F</strong></div>
+            <div class="caja word"><strong>T</strong></div>
+            <div class="caja"><strong>W</strong></div>
+            <div class="caja"><strong>R</strong></div>
+            <div class="caja"><strong>A</strong></div>
+            <div class="caja"><strong>G</strong></div>
+            <div class="caja"><strong>H</strong></div>
+            <div class="caja"><strong>R</strong></div>
+            <div class="caja"><strong>Z</strong></div>
+            <div class="caja"><strong>E</strong></div>
+            <div class="caja"><strong>G</strong></div>
+
+            <div class="caja"><strong>A</strong></div>
+            <div class="caja"><strong>F</strong></div>
+            <div class="caja"><strong>E<strong></div>
+            <div class="caja"><strong>F</strong></div>
+            <div class="caja"><strong>G</strong></div>
+            <div class="caja"><strong>H</strong></div>
+            <div class="caja"><strong>I</strong></div>
+            <div class="caja"><strong>J</strong></div>
+            <div class="caja word"><strong>N</strong></div>
+            <div class="caja word"><strong>I</strong></div>
+            <div class="caja word"><strong>G</strong></div>
+            <div class="caja word"><strong>R</strong></div>
+            <div class="caja word"><strong>A</strong></div>
+            <div class="caja word"><strong>M</strong></div>
+            <div class="caja"><strong>J</strong></div>
+            <div class="caja"><strong>K</strong></div>
+            <div class="caja"><strong>L</strong></div>
+            <div class="caja word"><strong>A</strong></div>
+            <div class="caja word"><strong>U</strong></div>
+            <div class="caja word"><strong>T</strong></div>
+            <div class="caja word"><strong>O</strong></div>
+            <div class="caja"><strong>M</strong></div>
+
+            <div class="caja word"><strong>L</strong></div>
+            <div class="caja word"><strong>E</strong></div>
+            <div class="caja word"><strong>F</strong></div>
+            <div class="caja word"><strong>T</strong></div>
+            <div class="caja"><strong>N</strong></div>
+            <div class="caja"><strong>V</strong></div>
+            <div class="caja"><strong>L</strong></div>
+            <div class="caja"><strong>Y</strong></div>
+            <div class="caja"><strong>D</strong></div>
+            <div class="caja"><strong>H</strong></div>
+            <div class="caja"><strong>S</strong></div>
+            <div class="caja"><strong>D</strong></div>
+            <div class="caja"><strong>V</strong></div>
+            <div class="caja"><strong>V</strong></div>
+            <div class="caja"><strong>J</strong></div>
+            <div class="caja"><strong>R</strong></div>
+            <div class="caja"><strong>G</strong></div>
+            <div class="caja"><strong>S</strong></div>
+            <div class="caja"><strong>H</strong></div>
+            <div class="caja"><strong>E</strong></div>
+            <div class="caja"><strong>R</strong></div>
+            <div class="caja"><strong>W</strong></div>
+        </div>
+    </div>
+</body>
+</html>
