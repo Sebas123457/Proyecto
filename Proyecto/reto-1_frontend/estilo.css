@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Overpass:wght@300;600&family=Ubuntu:wght@400;500;700&display=swap');
+
 *{
     margin:0;
     padding:0;
@@ -15,11 +17,10 @@
 }
 
 .contenedor{
-    padding: 100px 0; /*Tamaño arriba y abajo de cada seccion*/
-    width: 90%;
     max-width: 100%;
     margin: auto; /*centra todo*/
     overflow: hidden;
+    font-family: 'Overpass';
 }
 
 .T1{
@@ -38,21 +39,13 @@
     margin-bottom: 60px;
 }
 
-.titulo2{
-    color: darkblue;
-    font-size: 20px;
-    text-align: left;
-    margin-bottom: 23px;
-}
+
 
 /*header*/
 header{
     width:100%;
     height:500px;
-    background: #fd746c;  /* fallback for old browsers */
-    background: -webkit-linear-gradient(to right, rgba(252, 129, 84, 0.726), rgba(248, 67, 58, 0.719)), url(images/icon-arrow-dark.svg); /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to right, rgba(253, 133, 89, 0.726), rgba(248, 69, 60, 0.719)), url(images/icon-arrow-dark.svg); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-    background-size: cover;
+    background:url("images/bg-pattern-intro.svg") no-repeat left center/180%, linear-gradient(to right, hsl(13, 100%, 72%), hsl(353, 100%, 62%)); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
     position: relative;
     border-bottom-left-radius: 120px;
 }
@@ -63,6 +56,14 @@ header{
 
 #option3{
     padding: 20px 0 0 0;
+}
+
+#option3 a{
+    font-family: 'Ubuntu';
+}
+
+#option2 a{
+    font-family: 'Ubuntu';
 }
 
 li{
@@ -76,6 +77,11 @@ li{
 
 #option2{
     margin-bottom: 0%;
+    padding: 10px 90px 0 0;
+}
+
+#option2 a{
+    font-family: 'Ubuntu' bold;
 }
 
 #lista > li{
@@ -168,7 +174,8 @@ nav > a{
     padding: 5px;
     text-align: center;
     display: inline-block;
-   box-shadow: 0 0 5px rgba(255, 253, 253, 0.932);
+    box-shadow: 0 0 5px rgba(255, 253, 253, 0.932);
+    border: white solid 1px;
     border-radius: 50px;
 }
 
@@ -220,38 +227,106 @@ a{
 
 /*Primera parte*/
 
-.contenedor-primero{
+.primero{
+    width: 100%;
+    height:850px;
+    position: relative;
     display: flex;
-    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: column;
+    padding: 50px 0 10px 10px;
 }
 
 .imgPC{
-    width: 48%;
+    display: flex;
+    width: 140%;
 }
 
-
-.primero .contenido-texto{
-    width: 60%;
+.title{
+    justify-content: center;
+    align-items: center;
+    padding: 80px 0 0 0;
 }
 
-.contenido-texto h4{
-    margin-bottom: 15px;
+.title h3{
+    color: hsl(207, 13%, 34%);
+    font-size: 35px;
 }
 
+.content h4{
+    color: hsl(207, 13%, 34%);
+    margin: 30px 0 20px 0;
+}
 
+.titulo2{
+    font-size: 20px;
+    text-align: left;
+    margin-bottom: 23px;
+}
 
+.content h5{
+    color: hsl(207, 13%, 34%);
+    margin: 50px 0 20px 0;
+}
+
+.o1{
+    width: 50%;
+    padding: 150px 100px 0 110px;
+}
+
+.o2{
+    width: 50%;
+    overflow: hidden;
+    padding: 0 0 0 100px;
+}
+
+.content{
+    display: flex;
+    flex-direction: row;
+    margin: -155px 0 0 0 ;
+}
+
+.o1 p{
+    opacity: 0.8;
+    font-size: 15px;
+    line-height: 30px;
+}
 
 /*Segunda parte*/
+
+
 .segundo
 {
     width: 100%;
-    height:400px;
-    background: #fd746c;  /* fallback for old browsers */
-    background: -webkit-linear-gradient(to right, rgba(21, 14, 48, 0.726), rgba(1, 2, 24, 0.719)), url(images/bg-pattern-circles.svg); /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to right, rgba(21, 14, 48, 0.726), rgba(1, 2, 24, 0.719)), url(images/bg-pattern-circles.svg); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-    background-size: cover;
-    background-attachment: fixed;
+    height:550px;
     position: relative;
+    padding: 0;
+    display: flex;
+    align-items: center;
+}
+
+.contenido-segundo{
+    height: 400px;
+    width: 100%;
+    background: url("images/bg-pattern-circles.svg") no-repeat left bottom/60% , linear-gradient(to right, hsl(237, 17%, 21%), hsl(237, 23%, 32%)); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    position: relative;
+    border-bottom-left-radius: 120px;
+    border-top-right-radius: 120px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.op1{
+    justify-content: flex-end;
+}
+
+.op2{
+    display: flex;
+    width: 50%;
+    flex-direction: column;
+    align-content: center;
+    padding: 50px 150px 50px 40px;
 }
 
 .imagencelular
@@ -259,43 +334,82 @@ a{
     width: 100%;
 }
 
+.op2 h2{
+    color: white;
+    padding-bottom: 30px;
+    font-size: 32px;
+}
 
-
-
+.op2 p{
+    color: white;
+    opacity: 0.5;
+    font-size: 15px;
+    line-height: 30px;
+}
 
 
 /*Tercera parte*/
 
-.contenedor-tercero{
+.tercero{
+    width: 100%;
+    height: 850px;
     display: flex;
-    justify-content: space-evenly;
+    position: relative;
+    align-items: center;
+    flex-direction: row;
+    padding: 0 10px 10px 0;
+    margin: -40px 0 0 0;
 }
 
 .imagenlaptop{
-    width: 48%;
+    display: flex;
+    width: 142%;
 }
 
-.tercero .contenido-texto{
-    width: 60%;
+.contenido3{
+    display: flex;
+    width: 100%;
 }
 
-.contenido-texto h4{
-    margin-bottom: 15px;
+.optio1{
+    width: 50%;
+    overflow: hidden;
+    padding: 30px 2px 50px 0;
+    display: flex;
+    justify-content: right;
+}
+
+.contenido h5{
+    color: hsl(207, 13%, 34%);
+    margin: 30px 0 20px 0;
+}
+
+.optio2{
+    width: 50%;
+    justify-content: center;
+    align-items: center;
+    padding: 150px 170px 150px 40px;
+}
+
+.titulo3{
+    font-size: 20px;
+    text-align: left;
+    margin-bottom: 23px;
+    color: hsl(207, 13%, 34%);
+    margin: 30px 0 20px 0;
+}
+
+.optio2 p{
+    opacity: 0.8;
     font-size: 15px;
+    line-height: 30px;
 }
-
-.contenido-texto h5{
-    margin-bottom: 15px;
-    font-size: 15px;
-}
-
-
 
 
 /*Footer*/
 
 footer{
-    background-color: #24262b;
+    background-color: hsl(240, 10%, 16%);
     width:100%;
     height:300px;
     background-size: cover;
@@ -323,9 +437,10 @@ footer{
     justify-content: center;
 }
 
-.contenido-footer h1{
+.contenido-footer p{
     color:white;
-    font-size: 40px;
+    font-size: 45px;
+    font-family: 'Ubuntu';
 }
 
 #listafooter > li{
@@ -359,5 +474,5 @@ footer > a{
 
 #listafooter{
     padding: 20px 0 0 0;
+    font-family: 'Ubuntu';
 }
-

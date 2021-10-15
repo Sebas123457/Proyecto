@@ -1,38 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=Overpass:wght@200&display=swap');
+
 * {
     margin:0;
+    font-family: 'Overpass';
 }
 
 body{
-    /*background-image: url(FondoPP.jpg);*/
     background-size:auto;
     background-repeat: no-repeat;
 }
 
-/*.titulo1{
-    position: absolute;
-width: 352px;
-height: 84px;
-left: 545px;
-top: 118px;
-
-font-family: Roboto;
-font-style: normal;
-font-weight: normal;
-font-size: 72px;
-line-height: 84px;
-
-color: #FFFFFF;
-}*/
-
 .titulo {
-    font-family: "Times new roman", cursive;
     font-size: 50px;
-    top:1000px;
     text-align: center;
     border-radius: 15px;
     color: rgb(255, 255, 255);
     background-color: rgb(78, 0, 0);
-    margin-top: 50px;
+    margin-top: 25px;
   }
 
 .titulo2{
@@ -43,13 +27,13 @@ left: 380px;
 top: 100px;
 
 text-align: center;
-font-weight: normal;
 font-size: 30px;
 line-height: 55px;
 
 color: #FFFFFF;
 background-color: #000000;
 margin: 30px;
+border-radius: 10px;
 }
 
 .paragraph1{
@@ -59,7 +43,6 @@ margin: 30px;
     left: 380px;
     top: 250px;
     
-    font-family: Roboto;
     font-style: normal;
     font-weight: normal;
     font-size: 24px;
@@ -80,74 +63,6 @@ margin: 30px;
     margin-top: 50px;
 }
 
-.paragraph2{
-    position: absolute;
-    width: 385px;
-    height: 29px;
-    left: 140px;
-    top: 530px;
-    
-    font-family: Roboto;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 20px;
-    line-height: 29px;
-    text-decoration: none;
-    
-    color: #000000;
-}
-
-.paragraph3{
-    position: absolute;
-width: 361px;
-height: 29px;
-left: 140px;
-top: 570px;
-
-font-family: Roboto;
-font-style: normal;
-font-weight: normal;
-font-size: 20px;
-line-height: 29px;
-text-decoration: none;
-
-color: #000000;
-}
-
-.paragraph4{
-position: absolute;
-width: 361px;
-height: 29px;
-left: 140px;
-top: 610px;
-
-font-family: Roboto;
-font-style: normal;
-font-weight: normal;
-font-size: 20px;
-line-height: 29px;
-text-decoration: none;
-
-color: #000000;
-}
-
-.paragraph5{
-    position: absolute;
-width: 361px;
-height: 29px;
-left: 140px;
-top: 650px;
-
-font-family: Roboto;
-font-style: normal;
-font-weight: normal;
-font-size: 20px;
-line-height: 29px;
-text-decoration: none;
-
-color: #000000;
-}
-
 .perfil{
     background-image: url(/FotoDePerfil.jpg);
     background-repeat: no-repeat;
@@ -156,3 +71,35 @@ color: #000000;
     height:300px;
     margin-left: 50px;
 }
+
+.contenido-actividades{
+    width: 100%;
+    height: 250px;
+    display: flex;
+    flex-direction: column;
+}
+
+.contenido{
+    display:flex;
+    height: 300px;
+    width: 100%;
+    flex-direction: row;
+}
+
+.contenido a{
+    text-decoration: none;
+    font-size: 30px;
+}
+
+.caja{
+    color: white;
+    background-color: rgb(0, 0, 0);
+    margin: auto;
+    font-size: 16px;
+    width:auto;
+    height: auto;
+    text-align: center;
+    display: inline-block;
+    border-radius: 50px;
+}
+
