@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="css/wordsearch.css">
+    <title>JuegoSopaDeLetras</title>
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="option1">
+                <h1>Sopa de Letras</h1>
+            </div>
+            <div class="option2">
+                <h2 id="instructions"></h2>
+            </div>
+        </nav>
+    </header>
+    <section>
+        <main>
+            <div class="contenido">
+                <div class="o1">
+                    <button id="newGameButton" type="button">Nuevo Juego</button>
+                </div>
+                <div class="o2">
+                    <div id="wordboard"></div>
+                </div>
+            </div>
+        </main>
+        <footer>
+            <div class="op1">
+                <p>Las palabras que estén dentro de la tabla son las que aún no encuentras</p>
+                <div id="wordlist"></div>
+            </div>
+            <div class="op2">
+                <button id="solveButton" type="button">Resolver</button>
+            </div>
+        </footer>
+    </section>
+</body>
+<script src=https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js></script>
+<script src="js/wordpaths.js"></script>
+<script src="js/wordsearchcontroller.js"></script>
+<script src="js/wordsearchlogic.js"></script>
+<script src="js/wordsearchview.js"></script>
+<script>
+    $(document).ready(function () {
+        new WordSearchController("#wordboard", "#wordlist", "#solveButton", "#newGameButton", "#instructions", "#wordTheme", "#concepts");
+    })
+</script>
+</html>

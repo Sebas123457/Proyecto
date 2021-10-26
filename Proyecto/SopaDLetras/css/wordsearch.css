@@ -1,0 +1,248 @@
+@import url('https://fonts.googleapis.com/css2?family=Overpass:ital,wght@0,100;0,300;1,200&display=swap');
+
+* {
+    text-align: center;
+    font-family: 'Overpass';
+    font-weight: normal;
+  }
+  
+
+  h2,
+  #wordTheme,
+  #solveButton,
+  #newGameButton,
+  .listWord {
+    padding: 5px;
+  }
+  
+
+  #wordTheme,
+  #solveButton,
+  #newGameButton {
+    border: 2px transparent;
+    border-radius: 8px;
+  }
+  
+  h1,
+  h2,
+  #wordTheme,
+  #solveButton,
+  #newGameButton {
+    border: 2px white solid;
+    border-radius: 8px;
+  }
+  
+h1,h2{
+    color: white;
+}
+
+h1{
+    font-size: 50px;
+}
+
+h2{
+    font-size: 30px;
+}
+
+  .cell,
+  #wordTheme,
+  #wordlist {
+    background-color: white;
+  }
+  
+  
+  body {
+    background-size: cover;
+    background-attachment: fixed;
+    /*background-image: url(https://i.ytimg.com/vi/u5rY4e2ew8Q/maxresdefault.jpg);*/
+  }
+  
+  header
+  {
+      display: flex;
+      background-color: rgb(78, 0, 0);
+      height: 200px;
+      border-radius: 10px;
+      align-items: center;
+      justify-content: center;
+      border: black solid;
+      
+  }
+
+  section{
+      display: flex;
+      flex-direction: row;
+      height: 700px;
+  }
+
+  main{
+      display: flex;
+      background: url("/SopaDLetras/images/susan-wilkinson-uzWWxzLVap4-unsplash.jpg") no-repeat left center/100%;
+      width: 50%;
+      align-items: center;
+      justify-content: center;
+      border: black solid;
+  }
+  
+  .option1{
+      height: 50%;
+  }
+
+  .option2{
+      height: 50%;
+  }
+
+  .contenido{
+      height: 90%;
+      align-items: center;
+      justify-content: center;
+  }
+
+  
+
+
+  #wordboard {
+    margin: 20px auto 0 auto;
+    display: table;
+    min-width: 600px;
+  }
+  
+  .boardRow {
+    display: table-row;
+  }
+  
+  .cell {
+    margin: 0 auto;
+    border: none;
+    display: table-cell;
+    height: 30px;
+    width: 30px;
+    font-size: 17px;
+    padding: 0;
+    outline: 0;
+  
+    
+    cursor: default;
+    --moz-user-select: none;
+    --ms-user-select: none;
+    --khtml-user-select: none;
+    --webkit-user-select: none;
+    -webkit-touch-callout: none;
+  }
+  
+  .cell:hover {
+    background-color: rgba(236, 92, 92, 0.719);
+  }
+  
+  .cell.selectable {
+    background-color: rgba(236, 92, 92, 0.719);
+  }
+  
+  .cell.selected {
+    background-color: rgba(236, 92, 92, 0.719);
+  }
+  
+  .cell.found {
+    background-color: rgba(236, 92, 92, 0.719);
+    border: 1px black solid;
+    font-weight: bold;
+  }
+
+  footer{
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(78, 0, 0);
+    align-items: center;
+    height: 250px;
+    width: 50%;
+    justify-content: center;
+    border: black solid;
+    height: 100%;
+  }
+
+  .op1{
+      display: flex;
+      width: 100%;
+      height: 70%;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+  }
+
+  .op1 p{
+      color: white;
+      font-size: 20px;
+  }
+
+  .op2{
+    width: 100%;
+    height: 20%;
+  }
+  
+  #wordlist {
+      background-color: transparent;
+    border: 2px white solid;
+    color: white;
+    display: table;
+    min-width: 600px;
+    font-size: 17px;
+    text-align: center;
+  }
+  
+  .listRow {
+    display: table-row;
+  }
+  
+  .listWord {
+    display: table-cell;
+  }
+  
+  .listWord.found {
+    color: rgb(78, 0, 0);
+    text-decoration: line-through;
+  }
+  
+  #newGameButton {
+    background-color: white;
+    color: rgb(78, 0, 0);
+    margin: 20px auto 20px auto;
+    display: block;
+    outline: 0;
+    border-radius: 8px;
+    font-size: 18px;
+    font-weight: bold;
+    padding: 7 px 20 px;
+    text-transform: uppercase;
+    font-size: 16px;
+    border: 2px solid black;
+    transition: 0.3s ease;
+  }
+  
+  #solveButton {
+    color:black;
+    margin: 20px auto 20px auto;
+    outline: 0;
+    border-radius: 8px;
+    font-size: 18px;
+    font-weight: bold;
+    padding: 7 px 20 px;
+    text-transform: uppercase;
+    font-size: 16px;
+    border: 2px solid black;
+    transition: 0.3s ease;
+  }
+  
+  
+  
+  #newGameButton:hover{
+    transform: translateY(10px);
+    background-color: transparent;
+    border: white solid;
+  }
+
+  #solveButton:hover{
+    color: white;
+    border: black solid;
+    background-color: transparent;
+  }
+  
