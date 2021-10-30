@@ -64,12 +64,10 @@ border-radius: 10px;
 }
 
 .perfil{
-    background-image: url(/FotoDePerfil.jpg);
-    background-repeat: no-repeat;
     border-radius: 50px;
     width: 265px;
     height:300px;
-    margin-left: 50px;
+    padding: 30px 0 0 50px;
 }
 
 .contenido-actividades{
