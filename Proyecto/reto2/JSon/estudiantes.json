@@ -1,0 +1,102 @@
+[
+    {
+        "nombre": "Sebastián Castrillón Gavanzo",
+        "imagen": "https://scastrillong.neocities.org/FotoDePerfil.jpg",
+        "github": "https://github.com/Sebas123457/Proyecto",
+        "neocities": "https://scastrillong.neocities.org/",
+        "email": "scastrillong",
+        "telefono": "3202524418",
+        "actividades": [
+            {
+                "actividad": "Hoja de vida HTML",
+                "linkA":"https://scastrillong.neocities.org/HojaDeVida.html",
+                "estadouiux": "100%",
+                "estadotecnico": "100%"
+            },
+            {
+                "actividad": "Sopa de letras",
+                "linkA":"https://scastrillong.neocities.org/SopaDeLetras/SopaDeLetras.html",
+                "estadouiux": "100%",
+                "estadotecnico": "100%"
+            },
+            {
+                "actividad": "Juego sopa de letras",
+                "linkA":"https://scastrillong.neocities.org/SopaDLetras/mainSDL.html",
+                "estadouiux": "100%",
+                "estadotecnico": "100%"
+            },
+            {
+                "actividad": "Reto 1 Frontend",
+                "linkA":"https://scastrillong.neocities.org/reto-1_frontend/index.html",
+                "estadouiux": "100%",
+                "estadotecnico": "100%"
+            },
+            {
+                "actividad": "Reto 2 Frontend",
+                "linkA":"https://scastrillong.neocities.org/reto2/reto2main.html",
+                "estadouiux": "100%",
+                "estadotecnico": "100%"
+            }
+        ],
+        "valoraciones":[
+            {
+                "valhtml": "100%",
+                "valcss": "100%",
+                "valjs": "100%",
+                "valui": "100%",
+                "valux": "100%"
+            }
+        ],
+        "calificacion": "100%"
+    },
+    {
+        "nombre": "Kevin David Bedoya Garcia",
+        "imagen": "https://kdbedoya.neocities.org/CSS/imagenes/fotoPersonal.jpg",
+        "github": "https://github.com/LastCrypt",
+        "neocities": "https://kdbedoya.neocities.org/",
+        "email": "kdbedoya",
+        "telefono": "3145291966",
+        "actividades": [
+            {
+                "actividad": "HDV prototipo",
+                "linkA": "https://www.figma.com/file/mTbrcxTaPT0jHW7c38JZ88/Hoja-de-vida-prototipo?node-id=0%3A1",
+                "estadouiux": "100%",
+                "estadotecnico": "100%"
+            },
+            {
+                "actividad": "Hoja de vida",
+                "linkA": "https://kdbedoya.neocities.org/pgHojaVida.html",
+                "estadouiux": "100%",
+                "estadotecnico": "100%"
+            },
+            {
+                "actividad": "Sopa de letras",
+                "linkA": "https://kdbedoya.neocities.org/sopaLetras.html",
+                "estadouiux": "100%",
+                "estadotecnico": "100%"
+            },
+            {
+                "actividad": "Reto 1",
+                "linkA": "https://kdbedoya.neocities.org/reto1.html",
+                "estadouiux": "100%",
+                "estadotecnico": "100%"
+            },
+            {
+                "actividad": "Reto 2",
+                "linkA": "https://kdbedoya.neocities.org/reto2.html",
+                "estadouiux": "100%",
+                "estadotecnico": "100%"
+            }
+        ],
+        "valoraciones":[
+            {
+                "valhtml": "100%",
+                "valcss": "100%",
+                "valjs": "100%",
+                "valui": "100%",
+                "valux": "100%"
+            }
+        ],
+        "calificacion": "100%"
+    }
+]
