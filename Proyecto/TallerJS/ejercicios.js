@@ -173,7 +173,6 @@ letra es el resultado del módulo del número introducido entre 23
 
 const letras = ['T', 'R', 'W', 'A', 'G', 'M', 'Y', 'F', 'P', 'D', 'X', 'B', 'N', 
 'J', 'Z', 'S', 'Q', 'V', 'H', 'L', 'C', 'K', 'E', 'T'];*/
-/**/
 
 var numero=parseInt(prompt("Ingrese un numero de 8 o menos digitos"))
 if(numero<=99999999 && numero>0)

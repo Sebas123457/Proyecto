@@ -58,6 +58,7 @@ function traerDatos(){
                             <p>3</p>
                             <p>4</p>
                             <p>5</p>
+                            <p>6</p>
                         </div>
                         <div class="enlace">
                             <a href="${items.actividades[0].linkA}">${items.actividades[0].actividad}</a>
@@ -65,6 +66,7 @@ function traerDatos(){
                             <a href="${items.actividades[2].linkA}">${items.actividades[2].actividad}</a>
                             <a href="${items.actividades[3].linkA}">${items.actividades[3].actividad}</a>
                             <a href="${items.actividades[4].linkA}">${items.actividades[4].actividad}</a>
+                            <a href="${items.actividades[5].linkA}">${items.actividades[5].actividad}</a>
                         </div>
                         <div class="porcentajeuiux">
                             <p>${items.actividades[0].estadouiux}</p>
@@ -72,6 +74,7 @@ function traerDatos(){
                             <p>${items.actividades[2].estadouiux}</p>
                             <p>${items.actividades[3].estadouiux}</p>
                             <p>${items.actividades[4].estadouiux}</p>
+                            <p>${items.actividades[5].estadouiux}</p>
                         </div>
                         <div class="porcentajedev">
                             <p>${items.actividades[0].estadotecnico}</p>
@@ -79,27 +82,28 @@ function traerDatos(){
                             <p>${items.actividades[2].estadotecnico}</p>
                             <p>${items.actividades[3].estadotecnico}</p>
                             <p>${items.actividades[4].estadotecnico}</p>
+                            <p>${items.actividades[5].estadotecnico}</p>
                         </div>
                     </div>
                     </div>
                     <div class="estados-ficha">
                     <div class="estadohtml">
-                        <p>${items.valoraciones[0].valhtml}</p>
+                        <p>${items.valoraciones[0].valhtml} HTML</p>
                     </div>
                     <div class="estadocss">
-                        <p>${items.valoraciones[0].valcss}</p>
+                        <p>${items.valoraciones[0].valcss} CSS</p>
                     </div>
                     <div class="estadojs">
-                        <p>${items.valoraciones[0].valjs}</p>
+                        <p>${items.valoraciones[0].valjs} JS</p>
                     </div>
                     <div class="estadoui">
-                        <p>${items.valoraciones[0].valui}</p>
+                        <p>${items.valoraciones[0].valui} UI</p>
                     </div>
                     <div class="estadoux">
-                        <p>${items.valoraciones[0].valux}</p>
-                    </div>
+                        <p>${items.valoraciones[0].valux} UX</p>
+                    </div> 
                     <div class="total">
-                        <p>${items.calificacion}</p>
+                        <p>${items.calificacion} TOTAL</p>
                     </div>
                     </div>
                 </div>

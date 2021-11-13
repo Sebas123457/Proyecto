@@ -20,42 +20,65 @@ body{
   }
 
 .titulo2{
-position: absolute;
-width: 590px;
-height: 60px;
-left: 380px;
-top: 100px;
-
 text-align: center;
 font-size: 30px;
-line-height: 55px;
-
 color: #FFFFFF;
 background-color: #000000;
-margin: 30px;
-border-radius: 10px;
+border-radius: 5px;
+padding: 10px;
+}
+
+.presentacion{
+    display: flex;
+    height: 300px;
+    width: 100%;
+    margin: 30px 0 0 0;
 }
 
 .paragraph1{
     position: absolute;
     width: 681px;
-    height: 56px;
-    left: 380px;
-    top: 250px;
     
     font-style: normal;
     font-weight: normal;
     font-size: 24px;
-    line-height: 28px;
     text-align: center;
     
     color: #000000;
 }
 
+.o1{
+    display: flex;
+    width: 30%;
+    justify-content: center;
+}
+
+.o2{
+    display: flex;
+    width:70%;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.p1{
+    display: flex;
+    height: 30%;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+}
+
+.p2{
+    display: flex;
+    height: 70%;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
 .titulo3{
-    font-family: "Times new roman", cursive;
     font-size: 50px;
-    margin-top: 800;
     text-align: center;
     border-radius: 15px;
     color: rgb(255, 255, 255);
@@ -64,10 +87,10 @@ border-radius: 10px;
 }
 
 .perfil{
+    display: flex;
     border-radius: 50px;
     width: 265px;
     height:300px;
-    padding: 30px 0 0 50px;
 }
 
 .contenido-actividades{
@@ -75,7 +98,6 @@ border-radius: 10px;
     height: 250px;
     display: flex;
     flex-direction: column;
-    
 }
 
 .contenido{
@@ -86,10 +108,9 @@ border-radius: 10px;
     
 }
 
-
 .contenido a{
     text-decoration: none;
-    font-size: 30px;
+    font-size: 25px;
     flex-wrap: wrap;
 }
 

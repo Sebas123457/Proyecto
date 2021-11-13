@@ -36,6 +36,12 @@
                 "linkA":"https://scastrillong.neocities.org/reto2/reto2main.html",
                 "estadouiux": "100%",
                 "estadotecnico": "100%"
+            },
+            {
+                "actividad": "Consultas",
+                "linkA":"https://scastrillong.neocities.org/reto2/indexJS.html",
+                "estadouiux": "100%",
+                "estadotecnico": "100%"
             }
         ],
         "valoraciones":[
@@ -84,6 +90,12 @@
             {
                 "actividad": "Reto 2",
                 "linkA": "https://kdbedoya.neocities.org/reto2.html",
+                "estadouiux": "100%",
+                "estadotecnico": "100%"
+            },
+            {
+                "actividad": "Consultas",
+                "linkA": "https://kdbedoya.neocities.org/indexJS.html",
                 "estadouiux": "100%",
                 "estadotecnico": "100%"
             }

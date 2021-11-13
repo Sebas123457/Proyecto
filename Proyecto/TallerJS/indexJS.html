@@ -1,0 +1,343 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/estiloJS.css">
+    <title>EjerciciosJS</title>
+</head>
+<body>
+    <header>
+        <div class="titulo">
+            <h1>
+                -Ejercicos Javascript-
+            </h1>
+            <p>
+                Por cada ejercicio se encuentra su enunciado y respectivo código solución
+            </p>
+        </div>
+    </header>
+    <main>
+        <div class="contenido">
+            <div class="bodycode">
+                <p class="title">
+                    Ejercicio 1
+                </p>
+                <p>
+                    Solicita un nombre, la edad y muestra por consola 
+                    el mensaje "Hola ____, tienes ____ años y el año que viene tendrás ____ años"
+                    Realiza el ejercicio con prompt(mensaje) y haz uso de los template strings
+                </p>
+                <pre>
+                    <code>
+                        let nombre=prompt("Digite el nombre")
+                        let edad= prompt("Digite la edad")
+                        alert(`Hola ${nombre}, tienes ${edad} años y el año que viene tendrás ${parseInt(edad)+1} años.`)
+                    </code>
+                </pre>
+            </div>
+            <div class="bodycode">
+                <p class="title">
+                    Ejercicio 2
+                </p>
+                <p>
+                    Escribe un programa que pueda calcular el área de 3 figuras geométricas, 
+                    triángulo, rectángulo y círculo. En primer lugar pregunta de qué 
+                    figura se quiere calcular el área, después solicita los datos que necesites para calcularlo.
+                    <br>
+                    triángulo = b * h/2
+                    <br>
+                    rectángulo = b * h
+                    <br>
+                    círculo = π * r2 (pi * radio al cuadrado)
+                </p>
+                <pre>
+                    <code>
+                        var menu=0;
+                        while(menu!=4)
+                        {
+                            menu=parseInt(prompt("1. Triangulo \n2. Rectangulo \n3. Circulo \n4. Salir"));
+                            switch(menu)
+                            {
+                            case 1:
+                                var base=parseInt(prompt("Ingrese la base del triangulo"));
+                                var altura=parseInt(prompt("Ingrese la altura del triangulo"));
+                                alert("El area del triangulo es: "+base*(altura/2));
+                                break;
+                            case 2:
+                                var base=parseInt(prompt("Ingrese la base del rectangulo"));
+                                var altura=parseInt(prompt("Ingrese la altura del rectangulo"));
+                                alert("El area del rectangulo es: "+base*altura);
+                                break;
+                            case 3:
+                                var radio=parseInt(prompt("Ingrese el radio del circulo"));
+                                alert("El area del circulo es: "+Math.pow(radio, 2)*Math.PI);
+                            break;
+                            }
+                        }
+                    </code>
+                </pre>
+            </div>
+            <div class="bodycode">
+                <p class="title">
+                    Ejercicio 3
+                </p>
+                <p>
+                    Solicita un número e imprime todos los números pares e impares desde 1 hasta ese número con el mensaje "es par" o "es impar"
+                    <br>
+                    si el número es 5 el resultado será:
+                    <br>
+                    1 - es impar<br>
+                    2 - es par<br>
+                    3 - es impar<br>
+                    4 - es par<br>
+                    5 - es impar
+                </p>
+                <pre>
+                    <code>
+                        var numero=parseInt(prompt("Digite un numero entero mayor que 1"))
+                        if(numero>0)
+                        {
+                            let cadena=("El resultado es:")
+                            for (let i = 1; i <= numero; i++) 
+                            {
+                                if(i%2==0)
+                                {
+                                    cadena+=`\n ${i} es par`
+                                }
+                                else
+                                {
+                                    cadena+=`\n ${i} es impar`
+                                }
+                            }
+                            alert(cadena)
+                        }
+                        else{
+                            alert("Digite un numero entero mayor que 1")
+                        }
+                    </code>
+                </pre>
+            </div>
+            <div class="bodycode">
+                <p class="title">
+                    Ejercicio 4
+                </p>
+                <p>
+                    Escribe un programa que pida un número entero mayor que 1 y 
+                    que escriba si el número primo o no.Un número primo es aquel que 
+                    solo es divisible por sí mismo y la unidad.
+                </p>
+                <pre>
+                    <code>
+                        var numero=parseInt(prompt("Ingrese un numero entero mayor que 1"))
+                        if(numero>0)
+                        {
+                            let cadena="El numero es primo"
+                            if (numero == 4) 
+                            {
+                                cadena="El numero no es primo"
+                            }
+                            for (let i = 2; i < numero / 2; i++) 
+                            {
+                                if (numero%i==0)
+                                {
+                                    cadena="El numero no es primo"
+                                }
+                            }
+                            alert(cadena)
+                        }
+                        else{
+                            alert("Ingrese un numero entero mayor que 1")
+                        }
+                    </code>
+                </pre>
+            </div>
+            <div class="bodycode">
+                <p class="title">
+                    Ejercicio 5
+                </p>
+                <p>
+                    Escriba un programa que pida un número entero mayor que cero y calcule su factorial.
+                    El factorial es el resultado de multiplicar ese número por sus anteriores hasta la unidad.<br>
+                    !5 = 5*4*3*2*1 = 120
+                </p>
+                <pre>
+                    <code>
+                        var numero=parseInt(prompt("Ingrese un numero entero mayor que cero"))
+                        if(numero>0)
+                        {
+                            var resultado=1
+                            for(let i=1 ; i<=numero ; i++)
+                            {
+                                resultado=resultado*i
+                            }
+                            alert("El factorial del numero " +numero+" es: "+resultado)
+                        }
+                        else
+                        {
+                            alert("Digite un numero entero mayor que cero")
+                        }
+                    </code>
+                </pre>
+            </div>
+            <div class="bodycode">
+                <p class="title">
+                    Ejercicio 6
+                </p>
+                <p>
+                    Escribe un programa que permita ir introduciendo 
+                    una serie indeterminadade números mientras su suma no supere 50. 
+                    Cuando esto ocurra, se debe mostrar el total acumulado y 
+                    el contador de cuantos números se han introducido.
+                </p>
+                <pre>
+                    <code>
+                        var suma=0
+                        var con=0
+                        while(suma<=50)
+                        {
+                            var numero=parseInt(prompt("Ingrese un numero"))
+                            if((suma+numero)<=50)
+                            {
+                                suma+=numero
+                                con++;
+                            }
+                            else
+                            {
+                                break;
+                            }
+                        }
+                        alert(`El total acumulado es ${suma} y la cantidad de numeros ingresados es ${con}`)
+                    </code>
+                </pre>
+            </div>
+            <div class="bodycode">
+                <p class="title">
+                    Ejercicio 7
+                </p>
+                <p>
+                    Crea 3 arrays. El primero tendra 5 números y el segundo se llamará 
+                    pares y el tercero impares, ambos estarán vacíos. Después multiplica cada 
+                    uno de los números del primer array por un número aleatorio entre 1 y 10, 
+                    si el resultado es par guarda ese número en el array de pares y si es impar
+                    en el array de impares. Muestra por consola:<br>
+
+                        -la multiplicación que se produce junto con su resultado con el formato 2 x 3 = 6<br>
+                        -el array de pares e impares
+                </p>
+                <pre>
+                    <code>
+                        for (let i = 0; i <= 4; i++)
+                        {
+                            var numero=parseInt(prompt("Digite un numero"))
+                            numeros[i]=numero
+                        }
+                        var aleatorio=parseInt((Math.random()*10)+1)
+                        let impares=[]
+                        let pares=[]
+                        for (let i = 0; i <= 4; i++) 
+                        {
+                            if((numeros[i]*aleatorio)%2==0)
+                            {
+                                pares.push(numeros[i]*aleatorio)
+                            }
+                            else
+                            {
+                                impares.push(numeros[i]*aleatorio)
+                            }
+                        }
+                        alert("El numero aleatorio es: "+aleatorio+"\nLos numeros pares son: "+pares+"\nLos numeros impares son: "+impares))
+                    </code>
+                </pre>
+            </div>
+            <div class="bodycode">
+                <p class="title"> 
+                    Ejercicio 8
+                </p>
+                <p>
+                    Dado un array de letras, solicita un número de DNI y calcula que letra le corresponde.<br>
+                    El número no puede ser negativo ni tener más de 8 dígitos. La posición de la 
+                    letra es el resultado del módulo del número introducido entre 23<br>
+
+                    const letras = ['T', 'R', 'W', 'A', 'G', 'M', 'Y', 'F', 'P', 'D', 'X', 'B', 'N', 
+                    'J', 'Z', 'S', 'Q', 'V', 'H', 'L', 'C', 'K', 'E', 'T'];
+                </p>
+                <pre>
+                    <code>
+                        var numero=parseInt(prompt("Ingrese un numero de 8 o menos digitos"))
+                        if(numero<=99999999 && numero>0)
+                        {
+                            const letras = ['T', 'R', 'W', 'A', 'G', 'M', 'Y', 'F', 'P', 'D', <br>
+                            'X', 'B', 'N', 'J', 'Z', 'S', 'Q', 'V', 'H', 'L', 'C', 'K', 'E', 'T']
+                            var posicion=numero%23
+                            console.log("La letra que le corresponde es: "+letras[posicion])
+                        }
+                        else
+                        {
+                            console.log("Digite un numero mayor que cero y menor de 8 digitos")
+                        }
+                    </code>
+                </pre>
+            </div>
+            <div class="bodycode">
+                <p class="title">
+                    Ejercicio 9
+                </p>
+                <p>
+                    Solicitar al usuario una palabra y mostrar por consola el 
+                    número de consonantes, vocales y longitud de la palabra.
+                </p>
+                <pre>
+                    <code>
+                        var palabra=prompt("Ingrese una palabra")
+                        var conCons=0
+                        var conVoc=0
+                        for (count = 0; count <= palabra.length; count++)
+                        {
+                            if((palabra.charAt(count).match(/[aeiouAEIOU]/)))
+                            {       
+                                conVoc++
+                            } 
+                            else if((palabra.charAt(count).match(/[bcdfghjklmnpqrstvwxyzBCDFGHJKLMNPQRSTVWXYZ]/)))
+                            {
+                                conCons++
+                            }
+                        }
+                        console.log("La cantidad de consonantes son: "+conCons+"\n<br>
+                        La cantidad de vocales: "+conVoc+"\nLa longitud de la palabra es: "+palabra.length)
+                    </code>
+                </pre>
+            </div>
+            <div class="bodycode">
+                <p class="title">
+                    Ejercicio 10
+                </p>
+                <p>
+                    Dado un array que contiene ["azul", "amarillo", "rojo", "verde", "rosa"] 
+                    determinar si un color introducido por el usuario a través de un prompt se encuentra dentro del array o no.
+                </p>
+                <pre>
+                    <code>
+                        const colores = ["azul", "amarillo", "rojo", "verde", "rosa"]
+                        var color=prompt("Digite un color")
+                        if(colores.indexOf(color)==1)
+                        {
+                            console.log("El color si está dentro del array")
+                        }
+                        else
+                        {
+                            console.log("El color no está dentro del array")
+                        }
+                    </code>
+                </pre>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <p>
+            @Sebastian Castrillón Gavanzo 2021
+        </p>
+    </footer>
+</body>
+</html>
